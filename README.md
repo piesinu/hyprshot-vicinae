@@ -17,3 +17,6 @@ Provides quick access to screenshot actions and basic configuration.
 - Hyprshot
 - Vicinae
 
+---
+
+<a href="https://www.flaticon.com/free-icons/resize" title="resize icons">Ext Icon created by MONO - Flaticon</a>
