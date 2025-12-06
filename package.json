@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vicinaehq/vicinae/refs/heads/main/extra/schemas/extension.json",
+  "name": "hyprshot-vicinae",
+  "title": "Hyprshot Commands",
+  "description": "Hyprshot Commend",
+  "categories": [],
+  "license": "MIT",
+  "author": "piesinu",
+  "contributors": [],
+  "pastContributors": [],
+  "icon": "extension_icon.png",
+  "commands": [
+    {
+      "name": "make-screenshot",
+      "title": "Make Screenshot",
+      "subtitle": "Screenshot",
+      "description": "Capture a screenshot using hyprshot",
+      "mode": "view"
+    },
+    {
+      "name": "set-clipboard",
+      "title": "Set Clipboard Mode",
+      "subtitle": "Screenshot Output Mode",
+      "description": "Enable or disable clipboard-only screenshot mode",
+      "mode": "view"
+    },
+    {
+      "name": "set-delay",
+      "title": "Set Delay",
+      "subtitle": "Screenshot Delay",
+      "description": "Configure delay before taking a screenshot",
+      "mode": "view"
+    },
+    {
+      "name": "set-directory",
+      "title": "Set Directory",
+      "subtitle": "Screenshot Output Directory",
+      "description": "Choose directory for saved screenshots",
+      "mode": "view"
+    }
+  ],
+  "preferences": [],
+  "scripts": {
+    "build": "vici build",
+    "dev": "vici develop",
+    "format": "biome format --write src",
+    "lint": "vici lint"
+  },
+  "dependencies": {
+    "@vicinae/api": "^0.16.11"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "@biomejs/biome": "2.3.2"
+  }
+}
